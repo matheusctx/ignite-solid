@@ -19,7 +19,7 @@
   "rules": {
     "no-param-reassign": "off",
     "camelcase": "off",
-    "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
+    "prettier/prettier": ["error", {"singleQuote": true}],
     "import/no-unresolved": "error",
     "@typescript-eslint/naming-convention": [
       "error",
