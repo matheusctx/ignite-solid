@@ -17,8 +17,9 @@
   },
   "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers", "prettier"],
   "rules": {
+    "no-param-reassign": "off",
     "camelcase": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
     "import/no-unresolved": "error",
     "@typescript-eslint/naming-convention": [
       "error",
